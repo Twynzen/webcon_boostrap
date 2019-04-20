@@ -1,0 +1,15 @@
+body{
+  background-color: #eee;
+  color: #333;
+}
+a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+a:hover{
+  text-decoration: underline;
+  color:darkblue;
+}
+img{
+  width: 100%; //funciona bien con boostrap
+}
