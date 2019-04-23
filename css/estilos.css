@@ -13,15 +13,16 @@ a:hover{
 img{
   width: 100%; //funciona bien con boostrap
 }
-
+#navbar{
+  background-color:  #000;
+}
 
 #navbar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000;
-  z-index: 100; // superpone elementos
+  z-index: 100;
 
 
 }
@@ -41,4 +42,12 @@ img{
 #navbar li a:hover{
   background-color: blue;
   color: black;
+}
+.myicono {
+  color: aliceblue;
+  font-size: 1.5em;
+  padding: 10px;
+  display: none;
+
+
 }
