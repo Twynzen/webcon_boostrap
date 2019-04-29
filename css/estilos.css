@@ -63,3 +63,28 @@ img{
   border-radius: 1em;
 
 }
+#principal {
+
+  width: 40%;
+  float: left;
+  padding: 5px;
+}
+#secundario{
+
+  width: 40%;
+  float: left;
+  padding: 5px;
+}
+#content aside{
+
+  width: 20%;
+  float: left;
+  padding: 5px;
+}
+#content footer{
+  clear:both;
+  width: 100%;
+  background-color: dimgray;
+
+  border-radius: 1em;
+}
