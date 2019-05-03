@@ -59,6 +59,10 @@ img{
   position: relative;
   top: 80px;
   margin: 0 auto;
+  background-color: #fff;
+  padding: 2%;
+
+
 }
 #content header{
 
@@ -93,4 +97,15 @@ img{
   height: 100px;
   border-radius: 1em;
   padding: 25px;
+}
+@media screen and (max-width: 820px){
+  #content{
+    padding: 0;
+    max-width: 100%;
+  }
+#content header{
+  padding: 0;
+  border-radius: 0;
+}
+
 }
