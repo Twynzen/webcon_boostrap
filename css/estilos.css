@@ -107,5 +107,49 @@ img{
   padding: 0;
   border-radius: 0;
 }
+#principal{
+  padding: 3%;
+  width: 45%;
+}
+#secundario{
+  float: right;
+  padding: 3%;
+  width: 45%;
+}
+#content aside{
+  clear: both;
+  padding: 5%;
+  width: 100%;
+}
+#content footer{
+  width:  100%;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px){
+  #content{
+    width: auto;
+  }
+
+#principal{
+  width: auto;
+  float: none;
+  margin: 0px;
+
+}
+#secundario{
+  width: auto;
+  float: none;
+  margin: 0px;
+}
+#content aside{
+  padding: 0;
+  width: auto;
+}
+#content footer{
+  width:  auto;
+}
+
+
 
 }
