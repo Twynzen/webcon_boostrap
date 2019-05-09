@@ -132,6 +132,9 @@ img{
   #content{
     width: auto;
   }
+#content small{
+    display: none;
+}
 
 #principal{
   width: auto;
