@@ -23,11 +23,13 @@ img{
 }
 
 #navbar ul{
+  position: absolute;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   z-index: 100;
+  background: red;
 }
 .lista_pequena{
     display: block;
