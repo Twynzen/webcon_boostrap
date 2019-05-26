@@ -53,8 +53,6 @@ img{
 #navbar li.active a{
   color: red;
 }
-
-
 #navbar li a:hover{
   background-color: blue;
   color: black;
@@ -65,11 +63,9 @@ form{
   border: 1px solid #ddd;
   border-radius: 10px;
   margin: 0 auto;
-
 }
 form div{
   padding: 15px;
-
 }
 input{
   width: 90%;
